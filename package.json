@@ -1,0 +1,25 @@
+{
+  "name": "aula-sqlite",
+  "version": "1.0.0",
+  "description": "Como utilizar sqlite3 database em aplicações nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "git add . && git commit -am 'automatic push' && git push && clear && git status"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domzack/aula-sqlite.git"
+  },
+  "keywords": [],
+  "author": "Rodrigo Daniel Zacarias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domzack/aula-sqlite/issues"
+  },
+  "homepage": "https://github.com/domzack/aula-sqlite#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.7"
+  }
+}
